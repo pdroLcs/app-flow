@@ -10,7 +10,8 @@ export const repositoryPodcast = async (podcastName?: string): Promise<PodcastMo
     let jsonFile = JSON.parse(rawData)
 
     if (podcastName) {
-        jsonFile = jsonFile.filter((podcast: PodcastModel) => podcast.podcastName === podcastName)
+        const query = podcastName.toLowerCase().trim()
+        jsonFile = jsonFile.filter((p: PodcastModel) => p.podcastName.toLowerCase().includes(query))
     }
 
     return jsonFile
