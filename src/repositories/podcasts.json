@@ -1,0 +1,26 @@
+[
+    {
+        "podcastName": "flow",
+        "episode": "CBUM - Flow #319",
+        "videoId": "pQSuQmUfS30",
+        "categories": ["saúde", "fitness"]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "FERNANDO HADDAD - Flow News #030",
+        "videoId": "7Ddpi8MwD6Q",
+        "categories": ["política"]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "TESTE - Flow #001",
+        "videoId": "8GI9PI8mWD4R",
+        "categories": ["programação"]
+    },
+    {
+        "podcastName": "podpah",
+        "episode": "TESTE - Podpah #002",
+        "videoId": "54Hijm4KL9Rm",
+        "categories": ["humor"]
+    }
+]
